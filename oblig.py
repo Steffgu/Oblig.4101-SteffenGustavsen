@@ -25,8 +25,8 @@ def les_liste(tekstfil):
             spenninger.append(float(spenning))
     return tider, spenninger
 
-tider, spenninger = les_liste("/Users/steff/OneDrive - NTNU/Dokumenter/1.Termin/matte/RC-krets.txt")
-        
+tider, spenninger = les_liste("RC-krets.txt")
+
 plt.plot(tider, spenninger)
 plt.plot(t, y_verdi)
 plt.xlabel("t")
